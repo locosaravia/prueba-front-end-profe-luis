@@ -1,12 +1,48 @@
 header{
     background-color: black;
 }
+
 main{
-    background-image: url(Plan-a-Trip-to-Maldives-feature2.webp) ;
+    background-image: url(playas.webp);
+}
+
+div{
+    width: 300px;
+    text-align: left;
+    background-color: rgba(224, 220, 220, 0.589);
+    margin: auto;
 }
 
 H1{
-    text-align: center;
+    
+    text-align: left;
     color: white;
-    margin-right: 20px;
+    margin-left: 500px;
+}
+#a{
+    text-align: left;
+    color: white;
+    margin-left: 500px;
+}
+
+button{
+    background-color: rgb(85, 172, 243);
+    color: white;
+    border: none;
+    display: inline-block;
+    text-align: center;
+}
+
+#container{
+    text-align: center;
+}
+
+#container1{
+    text-align: center;
+    color: rgb(85, 172, 243);
+}
+
+#container3{
+    text-align: center;
+    color: gray;
 }
