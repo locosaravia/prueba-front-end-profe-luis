@@ -4,9 +4,12 @@ header{
 
 main{
     background-image: url(playas.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 800px;
 }
 
-div{
+#row{
     width: 300px;
     text-align: left;
     background-color: rgba(224, 220, 220, 0.589);
@@ -25,12 +28,16 @@ H1{
     margin-left: 500px;
 }
 
-button{
-    background-color: rgb(85, 172, 243);
+#ganar{
+    background-color: rgb(85, 198, 243);
     color: white;
     border: none;
     display: inline-block;
     text-align: center;
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    left:45%;
 }
 
 #container{
@@ -45,4 +52,49 @@ button{
 #container3{
     text-align: center;
     color: gray;
+}
+
+.column{
+    float: left;
+    width: 33.33%;
+    height: 33.33%;
+    padding: 5px;
+}
+
+.row{
+    content: "";
+    clear: both;
+    display: flex;
+    text-align: center;
+}
+
+#fotos{
+    width: 250px;
+    height: 200px;
+
+}
+
+#foto{
+    text-align: center;
+    width: 150px;
+    height: 150px;
+    margin-top: 60px;
+    margin-left: 50%;
+}
+
+
+#foto1{
+    text-align: center;
+    width: 150px;
+    height: 150px;
+    margin-top: 10px;
+    margin-left: 20%;
+}
+
+footer{
+    background-color: rgb(18, 228, 200);
+}
+
+#nombre{
+    text-align: center;
 }
